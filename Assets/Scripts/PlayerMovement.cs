@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private float jumpingPower = 16f;
     private bool isFacingRight = true;
 
-    public void Update()
+    void Update()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
 
